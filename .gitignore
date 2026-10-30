@@ -1,0 +1,24 @@
+# ---- SECRETS / RUNTIME STATE: never commit ----
+accounts.txt
+accounts*.txt
+*accounts*.txt
+proxies.txt
+config.json            # real config with live proxy creds — use config.example.json
+cookies/
+*.ct0
+_ct0jar*.txt
+*_state.json
+*.session
+*.log
+# runtime data / media
+data/
+media/
+media_cache/
+creatives_ready/
+__pycache__/
+*.pyc
+# backups / scratch
+*.bak
+*.bak.*
+*.bak-*
+_*.txt
